@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+    background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    width: 100%;
+}
+.time{
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.digit{
+    font-size: 8rem;
+    
+}
+.txt{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.btn{
+    cursor: pointer;
+    margin: 0rem 3rem;
+    width: 5rem;
+}
+#start{
+    font-size: 1.6rem;
+    width: 6rem;
+    border: none;
+    outline: none;
+       background-color: #4d88ff;
+
+   padding: 0rem .6rem ;
+
+
+}
+#stop{
+        font-size: 1.6rem;
+        width: 7rem;
+        border: none;
+        outline: none;
+            background-color: #999999
+            ;
+
+        padding: 0rem .6rem ;
+
+
+}
+#reset{
+        font-size: 1.6rem;
+        width: 6.5rem;
+        border: none;
+        outline: none;
+           background-color: #ff8c1a;
+
+        padding: 0rem .6rem ;
+
+    
+}
